@@ -1,0 +1,14 @@
+span {
+  visibility: visible;
+}
+img {
+  transition: 1.5s;
+}
+input:checked ~ img {
+  opacity: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}

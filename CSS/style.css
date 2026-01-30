@@ -1,5 +1,5 @@
 * {
-  margin: 20px auto;
+  margin: 14px auto;
   max-width: 450px;
   font-size: 20px;
   text-align: center;
@@ -10,6 +10,7 @@
 }
 img {
   transition: 1.5s;
+  border-radius: 10px;
 }
 .btn {
   display: inline-block;

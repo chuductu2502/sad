@@ -19,6 +19,7 @@ img {
   cursor: pointer;
   user-select: none;
   border-radius: 30px;
+  outline: none;
 }
 
 .top-img {

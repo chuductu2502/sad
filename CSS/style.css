@@ -23,9 +23,14 @@ img {
 
 .top-img {
   display: block;
+  width: 80%;
 }
 
 /* Khi checkbox được tick → ẩn ảnh */
 #toggle:checked ~ .top-img {
   opacity: 0;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
 }

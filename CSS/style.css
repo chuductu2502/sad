@@ -19,7 +19,6 @@ img {
   cursor: pointer;
   user-select: none;
   border-radius: 30px;
-  outline: none;
 }
 
 .top-img {
@@ -31,7 +30,15 @@ img {
 #toggle:checked ~ .top-img {
   opacity: 0;
 }
-.btn:hover {
+.btn:active {
   background-color: black;
   color: white;
+}
+input,
+textarea,
+select {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
 }

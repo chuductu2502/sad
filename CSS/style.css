@@ -1,6 +1,6 @@
 * {
   margin: 14px auto;
-  max-width: 80%;
+  max-width: 100%;
   font-size: 100%;
   text-align: center;
 }
@@ -23,7 +23,7 @@ img {
 
 .top-img {
   display: block;
-  width: 80%;
+  width: 50%;
 }
 
 /* Khi checkbox được tick → ẩn ảnh */

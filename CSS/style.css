@@ -1,7 +1,7 @@
 * {
   margin: 14px auto;
-  max-width: 450px;
-  font-size: 20px;
+  max-width: 80%;
+  font-size: 100%;
   text-align: center;
 }
 .div_center {
@@ -9,7 +9,7 @@
   flex-direction: column-reverse;
 }
 img {
-  transition: 1.5s;
+  transition: 2s;
   border-radius: 10px;
 }
 .btn {
